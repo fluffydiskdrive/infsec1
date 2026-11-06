@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+div {
+	width: 80%;
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #5e1022;
+	color: white;
+	font-size: 20px;
+}
+
+div > * {
+	display: block;
+	width: fit-content;
+	height: fit-content;
+}
+
+body {
+	background-color: black;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.sign{
+	font-size: 10px;
+	color: grey;
+}

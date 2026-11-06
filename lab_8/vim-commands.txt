@@ -1,0 +1,47 @@
+i did some searching and trying out
+so i present to you:
+
+LIST OF BASIC VIM COMMANDS!!1!
+
+modes:
+i - insert (typing mode)
+default (navigation and running commands)
+v - visual (block and line selection)
+
+
+commands:
+hjkl - navigation (alternatively arrow keys)
+0 - beginning of the line
+$ - end of line
+w - beginning of next word
+e - end of current word
+b - beginning of current word
+o - insert an empty line below cursor and enter i mode
+O -  an empty line above cursor and enter i mode
+d - delete a character (requires specifying direction)
+dw - delete a word (now thats pretty neat)
+dd - delete a line
+D - delete from cursor to end of line
+x - delete a character after the cursor (aka Delete)
+X - delete a character before the cursor (aka Backspace)
+y - copy a character (requires specifying direction) (seriously?)
+yw - copy a word (now we're talkin)
+yy - copy a line (NOW we're talkin)
+p - paste below cursor
+P - paste above cursor
+u - undo
+^r - redo
+gg - beginning of file
+G - end of file
+
+:w - save
+:q - exit
+:wq = :x - save and exit
+:q! - exit without saving
+/pattern - search for pattern (n - go to next, N - previous)
+:[%]s/old/new/g - replace "old" with "new" (optional % for replace all)
+. - repeat last command
+
+
+
+fluffydiskdrive wrote this, ai didnt :3
